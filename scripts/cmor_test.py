@@ -10,7 +10,7 @@ DATASET_INFO = {
     "_AXIS_ENTRY_FILE": "tables/CMIP7_coordinate.json",
     "_FORMULA_VAR_FILE": "tables/CMIP7_formula_terms.json",
     "_cmip7_option": 1,
-    "_controlled_vocabulary_file": "test/cmor-cvs.json",  # SEPARATE TO MIP TABLES FOR TESTING ONLY
+    "_controlled_vocabulary_file": "tables-cvs/cmor-cvs.json",  # SEPARATE TO MIP TABLES FOR TESTING ONLY
     "activity_id": "CMIP",
     "branch_method": "standard",
     "branch_time_in_child": 30.0,
@@ -87,7 +87,7 @@ def main():
     cmortime = cmor.axis("time",
                         coord_vals=time,
                         cell_bounds=time_bnds,
-                        units="days since 2018")
+                        units="days since 2018-01-01")
     axes = [cmortime, cmorlat, cmorlon]
     variable = "tos_tavg-u-hxy-sea"
     cmortos = cmor.variable(variable, "degC", axes)
