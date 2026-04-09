@@ -54,7 +54,7 @@ pycparser==2.23 ; implementation_name == 'pypy'
 pydantic==2.12.3
 pydantic-core==2.41.4
 pygments==2.19.2
-pyld==2.0.4
+pyld==3.0.0
 python-dateutil==2.9.0.post0
 pyyaml==6.0.3
 pyzmq==27.1.0
