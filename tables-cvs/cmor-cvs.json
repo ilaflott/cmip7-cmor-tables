@@ -3,8 +3,7 @@
         "Conventions": {
             "CF-1.11": "https://cfconventions.org/Data/cf-conventions/cf-conventions-1.11/cf-conventions.html",
             "CF-1.12": "https://cfconventions.org/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html",
-            "CF-1.13": "https://cfconventions.org/Data/cf-conventions/cf-conventions-1.13/cf-conventions.html",
-            "CMIP-7.0": ""
+            "CF-1.13": "https://cfconventions.org/Data/cf-conventions/cf-conventions-1.13/cf-conventions.html"
         },
         "DRS": {
             "directory_path_example": "MIP-DRS7/CMIP7/CMIP/CNRM-CERFACS/CNRM-ESM2-1e/1pctCO2/r1i1p1f1/glb/mon/rsus/tavg-h2m-hxy-u/g101/20251104",
